@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWyV9hrIqY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(https://fonts.gstatic.com/s/opensans/v17/mem6YaGs126MiZpBA-UFUK0Zdcg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKXGUdhrIqY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKWiUNhrIqY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/opensans/v17/memnYaGs126MiZpBA-UFUKW-U9hrIqY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN8rsOUuhs.ttf) format('truetype');
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.modal-fullscreen-menu {
+  background-color: #2a2c36;
+}
+.modal-fullscreen-menu .logo {
+  transition: all 0.25s ease;
+  padding-left: 2.7rem;
+  padding-bottom: 1rem;
+}
+.modal-fullscreen-menu .menu-footer {
+  display: inline-flex;
+  float: right;
+}
+.modal-fullscreen-menu .glyphicon-chevron-right {
+  visibility: hidden;
+  font-size: 10px;
+  vertical-align: 2.5px;
+  padding-right: 0.3rem;
+}
+.modal-fullscreen-menu hr {
+  border: 0;
+  border-top: 1px solid #666;
+  margin: 0.7rem;
+}
+.modal-fullscreen-menu .close {
+  color: white;
+  opacity: 1;
+  padding: 3.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  font-size: 5vh;
+}
+.modal-fullscreen-menu .modal-dialog {
+  margin: 0 auto;
+  max-width: 298px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.modal-fullscreen-menu .modal-content {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.modal-fullscreen-menu .list-group {
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+}
+.modal-fullscreen-menu .list-group a {
+  margin: 0.2rem;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #d1d4d7;
+  font-weight: 700;
+  letter-spacing: 0em;
+  border-radius: 20px;
+  border-color: transparent;
+  transition: all 0.25s ease;
+  background-color: transparent;
+  padding: 0.7rem;
+  height: 3rem;
+  line-height: 0;
+}
+.modal-fullscreen-menu .list-group a:hover {
+  color: white;
+  border-radius: 20px;
+  background-color: #141519;
+}
+.modal-fullscreen-menu .list-group a:hover .glyphicon-chevron-right {
+  visibility: visible;
+}
+.modal-fullscreen-menu .list-group a:hover:before {
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.modal-backdrop.in {
+  opacity: 1;
+}
+
+
+#button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+
+#logo{
+ font-family: 'Ceviche One', cursive;
+font-size: 37px;
+margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+.container-fluid {
+    overflow: hidden;
+}
+
+@media screen and (max-width:360px) {
+.arrow{
+    visibility: hidden;
+  }
+}
