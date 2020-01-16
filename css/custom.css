@@ -172,20 +172,7 @@ a{
   @media screen and (max-width: 800px) {
   .cl{
   margin-left: -34px;
-  margin-top: -48px;
+  margin-top: -100px;
   }
 }
 
-  @media screen and (max-width: 800px) {
-  .cl1{
-    margin-top: -100px;
-    font-size: 10px;
-  }
-}
-
- @media screen and (max-width: 800px) {
-  .cl1{
-    margin-top: -100px;
-    font-size: 10px;
-  }
-}
